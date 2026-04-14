@@ -4,7 +4,7 @@ const app = express()
 app.use(express.json())
 
 const menuItems = [
-  { id: 1, name: 'Espresso' },
+  { id: 1, name: 'Espresso', price: 3.00 },
   { id: 2, name: 'Cappuccino', price: 4.50 },
   { id: 3, name: 'Latte', price: 5.00 },
   { id: 4, name: 'Cold Brew', price: 4.00 },
